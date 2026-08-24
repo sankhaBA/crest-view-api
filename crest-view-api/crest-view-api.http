@@ -1,0 +1,6 @@
+@crest_view_api_HostAddress = http://localhost:5153
+
+GET {{crest_view_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

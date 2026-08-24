@@ -9,6 +9,21 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Mappings\" />
+    <Folder Include="Application\Services\" />
+    <Folder Include="Common\Wrappers\" />
+    <Folder Include="Common\Middleware\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Domain\Enums\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Domain\Interfaces\Services\" />
+    <Folder Include="Domain\Interfaces\Repositories\" />
+    <Folder Include="Infrastructure\Persistence\" />
   </ItemGroup>
 
 </Project>
